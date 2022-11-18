@@ -1,0 +1,96 @@
+# Prak_5_pemweb_RA
+# nama: Rauli Sipakkar
+# nim: 1201400001
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Data Mahasiswa</title>
+  </head>
+    <body>
+        <p class="tema">
+            Select prodi :
+            <select onchange="Pilihprodi(value)">
+            <option value="IF">IF</option>
+            <option value="Teknik Sipil">Teknik Sipil</option>
+            <option value="Teknik Elektro">Teknik Elektro</option>
+          </select>
+        </p>
+        <h1 id="Prodi">Prodi</h1>
+                    <table border="1" width="80%" 
+                    style="border-collapse: collapse;">
+                        <tr tr bgcolor="#ccc" height="40">
+                            <th>No</th>
+                            <th>Nim</th>
+                            <th>Nama</th>
+                            <th>Program Studi</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>120140001</td>
+                            <td>Rauli</td>
+                            <td>IF</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>120140196</td>
+                            <td>Sarlini</td>
+                            <td>IF</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>120140113</td>
+                            <td>Elgania</td>
+                            <td>IF</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>120140248</td>
+                            <td>Syafira</td>
+                            <td>IF</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>120140127</td>
+                            <td>Dicko</td>
+                            <td>IF</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>120140216</td>
+                            <td>Fauzan</td>
+                            <td>IF</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>120140021</td>
+                            <td>Mila</td>
+                            <td>IF</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>120140087</td>
+                            <td>Anisa</td>
+                            <td>IF</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>120140063</td>
+                            <td>Imam</td>
+                            <td>IF</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>120140086</td>
+                            <td>Reza</td>
+                            <td>IF</td>
+                        </tr>
+                    </table><br>
+                   
+        </table>
+    </body>
+</html>
